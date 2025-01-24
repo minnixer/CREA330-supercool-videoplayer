@@ -34,3 +34,30 @@ h1 {
     align-items: center;
     padding: 20px;
   }
+  .controls .btn {
+    border: 0;
+    background: radial-gradient(rgb(194, 125, 255), rgb(232, 248, 255));
+    cursor: grab;
+  }
+   /* Select the class controls and fa-play */
+   .controls .fa-play {
+    color: #ff1499;
+  }
+
+  /* Select the controls and fa-stop */
+  .controls .fa-stop {
+    color: #eb389a;
+  }
+  /* Select the controls and fa-pause (which we will create in JS */
+.controls .fa-pause {
+    color: #acffb4;
+  }
+  .controls .timestamp {
+    color: #eb12c6;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  /* Remove the outline when clicking the button */
+.btn:focus {
+    outline: 0;
+  }
